@@ -1,7 +1,8 @@
 @media(min-width: 320px) and (max-width: 767px){
+    
     .section2-bg-img{
         height: 1200px;        
-     }
+}
      
  .img1-div{       
      flex-wrap: wrap;
@@ -42,7 +43,7 @@
     .section2-bg-img{
         height: 1200px;
         
-     }
+ }
  .navigation{
         display: none;
  }
@@ -107,7 +108,7 @@
 
  .box1{
          margin-bottom: 20px;
-  }
+ }
 
  .text-div-2{
         flex-wrap: wrap;
