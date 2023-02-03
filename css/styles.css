@@ -40,7 +40,7 @@
 }
 .About-text{
     font-size: 42px;
-    font-style: extra bold;
+    font-weight: bold;
 }
 
 .About-text2{
@@ -57,9 +57,68 @@
 }
 
 .text-div{
-    width: 445px;
-    height: 390px;
-    background: rebeccapurple;
-    margin-top: 128px;
-    margin-left: 139px;
+    width: 400px;
+    height: 350px;
+    /* margin-top: 128px;
+    margin-left: 139px; */
+}
+
+.blue-box{
+    width: 185px;
+    height: 50px;
+    background: #5863F8;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;     
+}
+
+.blue-box-text{
+    display: flex;
+    justify-content: space-between;
+    width: 95px;
+    height: 20px;
+    margin-top: 16PX;
+    color: white;
+}
+
+.text-div-p1{
+    font-size: 14px;
+    color: #5863F8;
+    font-weight: bold;
+}
+.text-div-p2{
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.text-div-p3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.text-div-p4{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.read-more{
+    color: white;
+}
+
+.img-div{
+    width: 535;
+    height: 460;
+}
+
+.about-div{
+    width: 1088px;
+    height: 461px;
+    display: flex;
+    justify-content: space-between;
+    background: greenyellow;
+    margin-top: 90px;  
+    margin-left: auto;  
+    margin-right: auto;
+
 }
