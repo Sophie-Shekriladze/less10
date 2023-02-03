@@ -63,6 +63,12 @@
         width: 95%;
         height: auto;
  }
+  .text-div{
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
 
  .boxes{
         flex-wrap: wrap;
