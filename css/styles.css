@@ -1,110 +1,65 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .navigation-block{
+.navigation-block{
     display: flex;
     justify-content: space-between;
     padding: 25px;
-    height: 76px;
 }
 
 .nav-ul{
     display: flex;
-    width: 350px;
+    width: 500px;
     justify-content: space-between;
+    font-size: 12px;       
 }
 
-.fa-facebook-f{
-    font-size: 30px;
-    color: blue;
-    margin-left: 20px;
-}
-
-.fa-square-youtube{
-    font-size: 30px;
-    color: red;
-    margin-left: 35px;
-}
-
-.fa-bars{
-    color: aqua;
-    font-size: 30px;
-    margin-left: 35px;
-}
-
-.fa-facebook-f:hover{
-    color: yellow;
-    transition: 0.2s;
-}
-.fa-square-youtube:hover{
-    color: green;
-    transition: 0.2s;
-}
-
-.fa-bars:hover{
-    color: aliceblue;
-    transition: 0.2s;
+.fa-angles-down{
+    color: white;
 }
 
 .burger-bar{
     display: none;
 }
 
-.wraper-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    }
-
-.box{
-    width: 250px;
-    height: 250px;
-    background: white;
-    margin-bottom: 5px;
+.nav-text{
+    color: white;
 }
 
 .bg-img{
     width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png');
+    height: 324px;
+    background-image:url('../images/nav-bg.png');
 }
 
-.icon{
-    margin-bottom: 5px;
-} */
+.about-us{
+    display: flex;
+    flex-direction: column; 
+    width: 195px;
+    height: 60px;
+    color: white;
+    margin-top: 95px;
+    margin-left: 140px;    
+}
+.About-text{
+    font-size: 42px;
+    font-style: extra bold;
+}
+
+.About-text2{
+    color: white;
+    font-size: 14px;
+}
+
+.fa-grip-lines-vertical{
+    padding: 5px;
+}
+
+.small-about-text{
+    margin-top: 14px;
+}
+
+.text-div{
+    width: 445px;
+    height: 390px;
+    background: rebeccapurple;
+    margin-top: 128px;
+    margin-left: 139px;
+}
