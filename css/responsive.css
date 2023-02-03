@@ -38,59 +38,64 @@
 
 
 @media(max-width: 768px) {
-    .navigation{
+ .navigation{
         display: none;
-    }
-    .burger-bar{
+ }
+ .burger-bar{
         display: flex;
         color: white;        
-    }
-
-    .about-us{
+ }
+ .box1{
+    flex-wrap: wrap;
+    margin:  0 auto;
+ }
+ .about-us{
         margin-left: 25px;
-    }
+ }
+ 
 }
 
+
 @media(max-width: 1024px){
-    .about-div{
+ .about-div{
         flex-wrap: wrap;
         justify-content: center;
         width: 95%;
         height: auto;
-        }
+ }
 
-        .boxes{
+ .boxes{
         flex-wrap: wrap;
         width: 95%;
         margin-top: 20px;   
         margin: 0 auto;     
-        }
+ }
 
-        .section-div{
-            margin-top: 10px;
-            width: 80%;
-            margin: 0 auto;
-        }
+ .section-div{
+        flex-wrap: wrap;
+        margin-top: 10px;
+        width: 80%;
+        margin: 0 auto;
+ }
 
-        .section-2{
-            width: 95%;
-            flex-wrap: wrap;
-            height: auto;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 0 auto;
-            margin
-        }
+ .section-2{
+        width: 95%;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+ }
 
-        .box1{
-            margin-bottom: 20px;
-        }
+ .box1{
+         margin-bottom: 20px;
+  }
 
-        .text-div-2{
-            flex-wrap: wrap;
-            width: 70%;
-            margin: 0 auto;
-            margin-top: 30px;
-        }
+ .text-div-2{
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+ }
 } 
 
