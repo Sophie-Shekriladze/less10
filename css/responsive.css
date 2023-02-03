@@ -19,6 +19,29 @@
         width: 95%;
         height: auto;
         }
+
+        .boxes{
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;  
+        }
+
+        .section-2{
+            width: 95%;
+            margin-left: 10px;
+            height: auto;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .box1{
+            margin-bottom: 20px;
+        }
+
+        .text-div-2{
+            flex-wrap: wrap;
+            width: 80%;
+        }
 } 
 
  @media(min-width: 320px) and (max-width: 600px){
