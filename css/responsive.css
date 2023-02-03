@@ -1,13 +1,19 @@
-@media(min-width: 320px) and (max-width: 600px){
-    .img1-div{       
+@media(min-width: 320px) and (max-width: 767px){
+    .section2-bg-img{
+        height: 1200px;        
+     }
+     
+ .img1-div{       
      flex-wrap: wrap;
      width: 100%;
      height: auto;  
      margin-top: auto;
  }
+
  .text-div-p1{
      margin-top: 10px;
  }
+
  .about-div{
      flex-wrap: wrap;
      justify-content: center;
@@ -28,16 +34,15 @@
 
  .text-2{
      margin-top: 5px;
-     font-size: 15px;
-     margin-bottom: 40px;
- }
- 
+     font-size: 18px;     
+ } 
 }
 
-
-
-
 @media(max-width: 768px) {
+    .section2-bg-img{
+        height: 1200px;
+        
+     }
  .navigation{
         display: none;
  }
@@ -45,30 +50,37 @@
         display: flex;
         color: white;        
  }
+
  .box1{
     flex-wrap: wrap;
     margin:  0 auto;
  }
+
  .about-us{
         margin-left: 25px;
  }
  
 }
-
-
 @media(max-width: 1024px){
+ .section2-bg-img{
+    background-repeat: repeat;
+    height: 1200px;
+    
+ }
+
  .about-div{
         flex-wrap: wrap;
         justify-content: center;
         width: 95%;
         height: auto;
  }
-  .text-div{
+
+ .text-div{
     margin-top: 5px;
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
-  }
+ }
 
  .boxes{
         flex-wrap: wrap;
