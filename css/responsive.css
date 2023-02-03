@@ -1,3 +1,42 @@
+@media(min-width: 320px) and (max-width: 600px){
+    .img1-div{       
+     flex-wrap: wrap;
+     width: 100%;
+     height: auto;  
+     margin-top: auto;
+ }
+ .text-div-p1{
+     margin-top: 10px;
+ }
+ .about-div{
+     flex-wrap: wrap;
+     justify-content: center;
+     width: 95%;
+     height: auto;
+     }
+
+ .text-div-p2{
+     font-size: 25px;
+ }
+
+ .text-div-2{
+    width: 100%;
+     margin: 0 auto;
+     height: 50px;
+     margin-top: 5px;
+ }
+
+ .text-2{
+     margin-top: 5px;
+     font-size: 15px;
+     margin-bottom: 40px;
+ }
+ 
+}
+
+
+
+
 @media(max-width: 768px) {
     .navigation{
         display: none;
@@ -22,16 +61,25 @@
 
         .boxes{
         flex-wrap: wrap;
-        width: 80%;
-        height: auto;  
+        width: 95%;
+        margin-top: 20px;   
+        margin: 0 auto;     
+        }
+
+        .section-div{
+            margin-top: 10px;
+            width: 80%;
+            margin: 0 auto;
         }
 
         .section-2{
             width: 95%;
-            margin-left: 10px;
+            flex-wrap: wrap;
             height: auto;
             justify-content: center;
             flex-wrap: wrap;
+            margin: 0 auto;
+            margin
         }
 
         .box1{
@@ -40,28 +88,9 @@
 
         .text-div-2{
             flex-wrap: wrap;
-            width: 80%;
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 30px;
         }
 } 
 
- @media(min-width: 320px) and (max-width: 600px){
-       .img1-div{       
-        flex-wrap: wrap;
-        width: 100%;
-        height: auto;  
-        margin-top: auto;
-    }
-    .text-div-p1{
-        margin-top: 10px;
-    }
-    .about-div{
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 95%;
-        height: auto;
-        }
-
-    .text-div-p2{
-        font-size: 20px;
-    }
- }
